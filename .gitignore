@@ -2,3 +2,6 @@ digit\ recognition/test_folder/*
 
 digit\ recognition/__pycache__
 digit\ recognition/__pycache__/*
+
+.vscode
+.vscode/*
