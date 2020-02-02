@@ -10,7 +10,7 @@ from datetime import datetime
 
 app = Flask(__name__, static_url_path='/static')
 
-learner = load_learner('model/mnist')
+learner = load_learner('model/model.pkl')
 
 @app.route('/')
 def display_gui():
